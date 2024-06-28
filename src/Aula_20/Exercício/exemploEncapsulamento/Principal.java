@@ -10,7 +10,6 @@ public class Principal {
         System.out.println("Digite o sobrenome da pessoa: ");
         String sobrenome = ler.next();
 
-
         Pessoa p1 = new Pessoa(nome, sobrenome);
         System.out.println("pessoa cadastrada: "+p1.getNome()+" "+p1.getSobrenome());
     }
